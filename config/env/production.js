@@ -2,7 +2,7 @@
 
 module.exports = {
   secure: true,
-  port: process.env.PORT || 8080,
+  port: process.env.PORT || 5000,
   db: {
     uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://vijay:pr0nt0net@ds135364.mlab.com:35364/ctscan',
     options: {
